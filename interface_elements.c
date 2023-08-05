@@ -2504,7 +2504,7 @@ static void init_lines ()
 /* End the program if the terminal is too small. */
 static void check_term_size (struct main_win *mw, struct info_win *iw)
 {
-	mw->too_small = iw->too_small = COLS < 59 || LINES < 7;
+	mw->too_small = iw->too_small = COLS < 50 || LINES < 7;
 }
 
 /* Update the title with the current fill. */
